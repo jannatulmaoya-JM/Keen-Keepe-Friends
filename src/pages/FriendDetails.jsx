@@ -50,7 +50,6 @@ const FriendDetails = () => {
             
             <div className="max-w-6xl mx-auto">
    
-                {/* Back Button */}
                 <button 
                     onClick={() => navigate(-1)} 
                     className="mb-6 flex items-center gap-2 text-gray-600 hover:text-black transition-all font-medium"
