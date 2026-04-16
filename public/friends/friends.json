@@ -5,7 +5,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/men/1.jpg",
     "tags": ["WORK"],
-    "status": "Almost Due"
+    "status": "Almost Due",
+    "description": "Former colleague and mentor from TechCorp.",
+    "preferred_contact": "Email",
+    "days_since_contact": 62,
+    "goal_days": 30,
+    "next_due": "Feb 27, 2026"
   },
   {
     "id": 2,
@@ -13,7 +18,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/women/2.jpg",
     "tags": ["FAMILY"],
-    "status": "Overdue"
+    "status": "Overdue",
+    "description": "High school best friend, always keeps me grounded.",
+    "preferred_contact": "WhatsApp",
+    "days_since_contact": 62,
+    "goal_days": 30,
+    "next_due": "Feb 25, 2026"
   },
   {
     "id": 3,
@@ -21,7 +31,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/women/3.jpg",
     "tags": ["WORK"],
-    "status": "Overdue"
+    "status": "Overdue",
+    "description": "Talented UI Designer I met at the conference.",
+    "preferred_contact": "LinkedIn",
+    "days_since_contact": 45,
+    "goal_days": 20,
+    "next_due": "March 01, 2026"
   },
   {
     "id": 4,
@@ -29,7 +44,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/men/4.jpg",
     "tags": ["HOBBY", "TRAVEL"],
-    "status": "Overdue"
+    "status": "Overdue",
+    "description": "Travel buddy who loves hiking in the mountains.",
+    "preferred_contact": "Call",
+    "days_since_contact": 90,
+    "goal_days": 60,
+    "next_due": "Jan 15, 2026"
   },
   {
     "id": 5,
@@ -37,7 +57,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/men/5.jpg",
     "tags": ["WORK"],
-    "status": "Overdue"
+    "status": "Overdue",
+    "description": "Project manager from the freelance project.",
+    "preferred_contact": "Slack",
+    "days_since_contact": 15,
+    "goal_days": 7,
+    "next_due": "Feb 20, 2026"
   },
   {
     "id": 6,
@@ -45,7 +70,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/women/6.jpg",
     "tags": ["FAMILY"],
-    "status": "On-Track"
+    "status": "On-Track",
+    "description": "Cousin who lives in London.",
+    "preferred_contact": "Video Call",
+    "days_since_contact": 5,
+    "goal_days": 30,
+    "next_due": "May 10, 2026"
   },
   {
     "id": 7,
@@ -53,7 +83,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/women/7.jpg",
     "tags": ["WORK"],
-    "status": "On-Track"
+    "status": "On-Track",
+    "description": "Professional mentor for React development.",
+    "preferred_contact": "Email",
+    "days_since_contact": 10,
+    "goal_days": 15,
+    "next_due": "April 05, 2026"
   },
   {
     "id": 8,
@@ -61,7 +96,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/men/8.jpg",
     "tags": ["HOBBY", "TRAVEL"],
-    "status": "Almost Due"
+    "status": "Almost Due",
+    "description": "Photography enthusiast friend.",
+    "preferred_contact": "Instagram",
+    "days_since_contact": 55,
+    "goal_days": 60,
+    "next_due": "April 20, 2026"
   },
   {
     "id": 9,
@@ -69,7 +109,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/men/9.jpg",
     "tags": ["WORK"],
-    "status": "Almost Due"
+    "status": "Almost Due",
+    "description": "Former team lead, great career advice giver.",
+    "preferred_contact": "LinkedIn",
+    "days_since_contact": 28,
+    "goal_days": 30,
+    "next_due": "May 01, 2026"
   },
   {
     "id": 10,
@@ -77,7 +122,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/women/10.jpg",
     "tags": ["FAMILY"],
-    "status": "Overdue"
+    "status": "Overdue",
+    "description": "Kind-hearted sister-in-law.",
+    "preferred_contact": "Text",
+    "days_since_contact": 40,
+    "goal_days": 14,
+    "next_due": "April 02, 2026"
   },
   {
     "id": 11,
@@ -85,7 +135,12 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/women/11.jpg",
     "tags": ["WORK"],
-    "status": "Overdue"
+    "status": "Overdue",
+    "description": "Software Architecture expert.",
+    "preferred_contact": "Email",
+    "days_since_contact": 70,
+    "goal_days": 30,
+    "next_due": "March 15, 2026"
   },
   {
     "id": 12,
@@ -93,6 +148,11 @@
     "last_interaction": "62d ago",
     "image": "https://randomuser.me/api/portraits/men/12.jpg",
     "tags": ["HOBBY", "TRAVEL"],
-    "status": "On-Track"
+    "status": "On-Track",
+    "description": "Gym partner and fitness coach.",
+    "preferred_contact": "Text",
+    "days_since_contact": 2,
+    "goal_days": 7,
+    "next_due": "May 15, 2026"
   }
 ]

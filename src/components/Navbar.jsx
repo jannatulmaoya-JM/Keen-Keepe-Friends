@@ -1,10 +1,10 @@
-
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom"; 
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-
+    const location = useLocation();
+    const isDetailsPage = location.pathname.includes('/details');
 
     const linkStyle = ({ isActive }) => 
         isActive 
@@ -15,17 +15,22 @@ const Navbar = () => {
         <nav className="shadow-md bg-white sticky top-0 z-50">
             <div className="container mx-auto px-4 lg:px-8 flex justify-between items-center h-20">
                 
-            
-                <div className="text-3xl tracking-tighter">
+          
+                <div className="text-3xl tracking-tighter cursor-pointer" onClick={() => window.location.href='/'}>
                     <span className="font-extrabold text-[#1D2D35]">Keen</span>
                     <span className="font-semibold text-[#244D3F]">Keeper</span>
                 </div>
 
+           
                 <div className="hidden md:flex gap-4 items-center">
-                    <NavLink to="/" className={linkStyle}>
-                        <span className="material-symbols-outlined text-[24px]">home</span>
-                        Home
-                    </NavLink>
+                  
+                    {!isDetailsPage && (
+                        <NavLink to="/" className={linkStyle}>
+                            <span className="material-symbols-outlined text-[24px]">home</span>
+                            Home
+                        </NavLink>
+                    )}
+                    
                     <NavLink to="/timeline" className={linkStyle}>
                         <span className="material-symbols-outlined text-[24px]">schedule</span>
                         Timeline
@@ -45,13 +50,18 @@ const Navbar = () => {
                 </div>
             </div>
 
+            {/* Mobile Menu Items */}
             {isOpen && (
                 <div className="md:hidden bg-white border-t border-gray-100 pb-4 px-4 transition-all">
                     <div className="flex flex-col gap-2 mt-4">
-                        <NavLink to="/" className={linkStyle} onClick={() => setIsOpen(false)}>
-                            <span className="material-symbols-outlined text-[22px]">home</span>
-                            Home
-                        </NavLink>
+                      
+                        {!isDetailsPage && (
+                            <NavLink to="/" className={linkStyle} onClick={() => setIsOpen(false)}>
+                                <span className="material-symbols-outlined text-[22px]">home</span>
+                                Home
+                            </NavLink>
+                        )}
+                        
                         <NavLink to="/timeline" className={linkStyle} onClick={() => setIsOpen(false)}>
                             <span className="material-symbols-outlined text-[22px]">schedule</span>
                             Timeline
