@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "tags": ["WORK"],
+    "status": "Almost Due"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "tags": ["FAMILY"],
+    "status": "Overdue"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/women/3.jpg",
+    "tags": ["WORK"],
+    "status": "Overdue"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/men/4.jpg",
+    "tags": ["HOBBY", "TRAVEL"],
+    "status": "Overdue"
+  },
+  {
+    "id": 5,
+    "name": "David Kim",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "tags": ["WORK"],
+    "status": "Overdue"
+  },
+  {
+    "id": 6,
+    "name": "Emma Wilson",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/women/6.jpg",
+    "tags": ["FAMILY"],
+    "status": "On-Track"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/women/7.jpg",
+    "tags": ["WORK"],
+    "status": "On-Track"
+  },
+  {
+    "id": 8,
+    "name": "James Wright",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/men/8.jpg",
+    "tags": ["HOBBY", "TRAVEL"],
+    "status": "Almost Due"
+  },
+  {
+    "id": 9,
+    "name": "David Kim",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/men/9.jpg",
+    "tags": ["WORK"],
+    "status": "Almost Due"
+  },
+  {
+    "id": 10,
+    "name": "Emma Wilson",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/women/10.jpg",
+    "tags": ["FAMILY"],
+    "status": "Overdue"
+  },
+  {
+    "id": 11,
+    "name": "Lisa Nakamura",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/women/11.jpg",
+    "tags": ["WORK"],
+    "status": "Overdue"
+  },
+  {
+    "id": 12,
+    "name": "James Wright",
+    "last_interaction": "62d ago",
+    "image": "https://randomuser.me/api/portraits/men/12.jpg",
+    "tags": ["HOBBY", "TRAVEL"],
+    "status": "On-Track"
+  }
+]
