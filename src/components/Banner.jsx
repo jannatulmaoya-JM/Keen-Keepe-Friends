@@ -1,12 +1,9 @@
 const Banner = ({ friends = [] }) => {
-    // ডাইনামিক ক্যালকুলেশন
+
     const totalFriends = friends.length;
     const onTrack = friends.filter(f => f.status === "On-Track").length;
     const needAttention = friends.filter(f => f.status === "Overdue" || f.status === "Almost Due").length;
-    
-    // interaction count (আপাতত আপনার দেওয়া স্ট্যাটিক ১২ থাকলো কারণ এটি কমপ্লেক্স লজিক)
-    const interactions = 12; 
-
+    const interactions = 12;
     return (
         <section className="bg-base-200 pt-16 pb-12"> 
             <div className="container mx-auto px-6 lg:px-20">
