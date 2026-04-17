@@ -1,21 +1,39 @@
-
 import { useEffect, useState } from "react";
 import Banner from '../components/Banner';
 import FriendCard from "../components/FriendCard";
 
 const Home = () => {
     const [friends, setFriends] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        setLoading(true);
         fetch('/friends/friends.json')
             .then(res => res.json())
-            .then(data => setFriends(data))
-            .catch(error => console.error("Error fetching data:", error));
+            .then(data => {
+                setFriends(data);
+               
+                setTimeout(() => {
+                    setLoading(false);
+                }, 1000); 
+            })
+            .catch(error => {
+                console.error("Error fetching data:", error);
+                setLoading(false);
+            });
     }, []);
+
+    if (loading) {
+        return (
+            <div className="flex justify-center items-center min-h-screen">
+                <span className="loading loading-spinner loading-lg text-[#244D3F]"></span>
+            </div>
+        );
+    }
 
     return (
         <div className="bg-base-200 min-h-screen">
-            <Banner />
+            <Banner friends={friends} />
             <div className="max-w-6xl mx-auto px-6 lg:px-0 pb-20">
                 <h2 className="text-2xl font-bold text-[#1D2D35] mb-8">
                     Your Friends

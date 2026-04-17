@@ -15,7 +15,6 @@ const Timeline = () => {
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-3xl font-bold mb-8 text-[#1D2D35]">Timeline</h2>
 
-               
                 <div className="mb-6">
                     <select 
                         className="select select-bordered w-full max-w-xs bg-white text-gray-600 focus:outline-none border-gray-200"
@@ -38,8 +37,9 @@ const Timeline = () => {
                         filteredData.map((entry) => (
                             <div key={entry.id} className="bg-white p-5 rounded-xl shadow-sm border border-gray-100 flex items-center gap-5 transition-all hover:shadow-md">
                                 <div className="p-3 bg-gray-50 rounded-lg">
+                                  
                                     <span className="material-icons text-gray-600">
-                                       
+                                        {entry.icon}
                                     </span>
                                 </div>
                                 <div>

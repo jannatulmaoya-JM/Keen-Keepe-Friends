@@ -1,16 +1,21 @@
-# React + Vite
+# KeenKeeper – My Personal Friendship Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Keeping up with friends can be tough when life gets busy. I created **KeenKeeper** to help me (and anyone else) keep track of meaningful connections, see who I haven't talked to in a while, and stay organized with my social life.
 
-Currently, two official plugins are available:
+###  Project Description
+KeenKeeper is a simple but powerful dashboard that helps you manage your friendships. It tracks your last interactions, shows you who needs attention, and gives you a visual breakdown of how you’re communicating—whether it’s through calls, texts, or video chats. It’s all about making sure no one gets left behind.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+###  Technologies I Used
+- **React.js** – For building the core interface.
+- **Tailwind CSS & DaisyUI** – To make everything look clean and modern without much hassle.
+- **Recharts** – To create the interactive pie chart for stats.
+- **React Router** – So users can move smoothly between pages.
+- **Context API** – To manage the timeline data across the whole app.
 
-## React Compiler
+###  3 Key Features
+1. **Dynamic Friend Stats:** The dashboard automatically calculates who is "On-Track" and who needs attention based on the data, so you always know who to call next.
+2. **Interactive Communication Log:** You can log a call or message with one click, and it instantly updates your personal timeline and communication history.
+3. **Visual Interaction Breakdown:** I integrated a pie chart that visually shows your communication habits (Call vs. Text vs. Video), helping you see how you're spending your time.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+*Created as part of my React learning journey.*
