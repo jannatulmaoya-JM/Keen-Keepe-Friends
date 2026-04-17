@@ -53,4 +53,5 @@ const Banner = ({ friends = [] }) => {
     );
 };
 
+
 export default Banner;

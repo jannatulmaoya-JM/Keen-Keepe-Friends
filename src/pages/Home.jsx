@@ -30,7 +30,6 @@ const Home = () => {
             </div>
         );
     }
-
     return (
         <div className="bg-base-200 min-h-screen">
             <Banner friends={friends} />

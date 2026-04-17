@@ -36,8 +36,7 @@ const Timeline = () => {
                     ) : (
                         filteredData.map((entry) => (
                             <div key={entry.id} className="bg-white p-5 rounded-xl shadow-sm border border-gray-100 flex items-center gap-5 transition-all hover:shadow-md">
-                                <div className="p-3 bg-gray-50 rounded-lg">
-                                  
+                                <div className="p-3 bg-gray-50 rounded-lg">   
                                     <span className="material-icons text-gray-600">
                                         {entry.icon}
                                     </span>
